@@ -1,0 +1,126 @@
+/*
+Developed by Victor Moreno
+*/
+body {
+    margin: 0px;
+    padding: 0px;
+    color: #2c2626;
+    background: black;
+}
+.contentBlock {
+    text-align: center;
+}
+.cb-container {
+    display: inline-block;
+}
+.cb02, .cb03 {
+    z-index: 6;
+    position: relative;
+    height: 40vw;
+    top: 3vw;
+}
+/*///////////////
+///BACKGROUND///
+//////////////*/
+#bg {
+    width: 100%;
+    position: fixed;
+    top: -5%;
+    left: 0;
+    z-index: -10;
+    opacity: 100%;
+}
+#bgvid {
+  position: fixed;
+  top: -25%;
+  right: 0;
+  bottom: 0;
+  width: 100vw;
+  height: 75vw;
+}
+.vidContainer {
+    overflow: hidden;
+}
+/*/////////////////
+///WEBSITE LOGO///
+////////////////*/
+.logoContainer {
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: 10px 50px;
+    color: #2c2626;
+    font-family: 'Oswald', sans-serif;
+    line-height: 0px;
+    text-align: center;
+}
+#webLogo {
+    font-size: 6em;
+    letter-spacing: 10px;
+    margin-bottom: 55px;
+}
+#subLogo {
+    font-size: 10px;
+    letter-spacing: 5px;
+    font-family: 'Spartan', sans-serif;
+}
+/*///////////////////
+//MAIN MENU BUTTON///
+//////////////////*/
+.menuBtn {
+    text-align: center;
+}
+#toggleOff {
+    width: 0;
+    height: 0;
+    border-left: 60px solid transparent;
+    border-right: 60px solid transparent;
+    border-top: 85px solid #2c2626;
+    top: 45em;
+    position: absolute;
+    z-index: 5;
+    display: inline-block;
+    margin: -60px;
+}
+.btnTXT {
+    position: absolute;
+    top: -80px;
+    left: -25px;
+    text-align: center;
+    color: white;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font-family: arial;
+    font-size: 10px;
+}
+.circleContain {
+    overflow: hidden;
+}
+.circleTrans {
+    background: #eceff1;
+    position: fixed;
+    width: 500%;
+    height: 500%;
+    border-radius: 100%;
+    top: -200%;
+    right: -500%;
+    z-index: 5;
+}
+/*//////////////////
+//MAIN MENU LIST///
+/////////////////*/
+.menuTitle {
+    font-family: 'Spartan', sans-serif;
+    font-size: 2em;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+}
+.creditBlock {
+    font-family: 'Spartan', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 10px;
+    bottom: 10px;
+    width: 40%;
+    position: absolute;
+}

@@ -1,0 +1,53 @@
+/*
+Developed by Victor Moreno
+This css document effects the following blocks:
+-Big text
+-
+*/
+
+/*/////////////////////
+//MAIN LANDING BLOCK///
+///////////////////*/
+.quoteContainer {
+    width: 100%;
+    position: relative;
+    top:25em;
+    text-align: center;
+}
+.mainTXT {
+    display: inline-block;
+    text-transform: uppercase;
+    font-family: 'Spartan', sans-serif;
+    font-size: 0.8em;
+    letter-spacing: 5px;
+}
+.slide {
+    overflow: hidden;
+    height: 25px;
+    margin-top: -20px;
+    /*background: #2c2626;*/
+}
+.slider-item {
+    /*color: white;*/
+}
+/*/////////////////////
+//SOCIAL MEDIA LINKS///
+////////////////////*/
+.smContainer {
+    text-align: center;
+    width: 100%;
+    position: relative;
+    top: 26em;
+}
+.smBlock {
+    display: inline-block;
+}
+.smLink {
+    text-decoration: none;
+    float: left;
+    color: black;
+    list-style-type: none;
+}
+.smImg {
+    width: 25%;
+}
