@@ -12,6 +12,8 @@ body {
 }
 .cb-container {
     display: inline-block;
+    text-align: center;
+    width: 100%;
 }
 .cb02, .cb03 {
     z-index: 6;
@@ -110,9 +112,19 @@ body {
 /////////////////*/
 .menuTitle {
     font-family: 'Spartan', sans-serif;
-    font-size: 10em;
-    font-weight: bold;
-    width: 50%;
     text-transform: uppercase;
     letter-spacing: 10px;
+    display: inline-block;
+    text-align: center;
+    width: 50%;
+}
+/*/////////////
+///ABOUT ME///
+////////////*/
+.subtxt {
+ font-size: 15px;
+}
+.bigtxt {
+ font-size: 10em;
+ font-weight: bold;
 }
