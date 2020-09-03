@@ -17,7 +17,6 @@ body {
     z-index: 6;
     position: relative;
     height: 40vw;
-    top: 3vw;
 }
 /*///////////////
 ///BACKGROUND///
@@ -111,16 +110,9 @@ body {
 /////////////////*/
 .menuTitle {
     font-family: 'Spartan', sans-serif;
-    font-size: 2em;
+    font-size: 10em;
+    font-weight: bold;
+    width: 50%;
     text-transform: uppercase;
     letter-spacing: 10px;
-}
-.creditBlock {
-    font-family: 'Spartan', sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 3px;
-    font-size: 10px;
-    bottom: 10px;
-    width: 40%;
-    position: absolute;
 }
