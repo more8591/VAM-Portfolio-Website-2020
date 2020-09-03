@@ -51,3 +51,47 @@ This css document effects the following blocks:
 .smImg {
     width: 25%;
 }
+
+/*///////////////////////////
+//CLOSE LINE CORNER BUTTON///
+///////////////////////////*/
+.close {
+  position: absolute;
+  right: 50px;
+  top: 50px;
+  width: 50px;
+  height: 50px;
+}
+.close:before, .close:after {
+  position: absolute;
+  left: 15px;
+  content: ' ';
+  height: 33px;
+  width: 2px;
+  background-color: #333;
+}
+.close:before {
+  transform: rotate(45deg);
+}
+.close:after {
+  transform: rotate(-45deg);
+}
+
+/*/////////////////////
+//DIRECTIONAL PROMPT///
+//////////////////////*/
+.scr-container {
+ width: 100%;
+ position: fixed;
+ bottom: 3em;
+ text-align: center;
+ z-index: 10;
+}
+.scr-body {
+ display: inline-block;
+ border: black solid 1px;
+ padding: 10px 25px;
+ font-size: 15px;
+ letter-spacing: 2px;
+ font-family: 'Spartan', sans-serif;
+}

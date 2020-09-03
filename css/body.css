@@ -7,19 +7,33 @@ body {
     color: #2c2626;
     background: black;
 }
-.contentBlock {
+.contentBlock, .frontBlock {
     text-align: center;
 }
 .cb-container {
     display: inline-block;
     text-align: center;
     width: 100%;
+    height: 50vw;
 }
 .cb02, .cb03 {
     z-index: 6;
     position: relative;
     height: 40vw;
 }
+.cb02 {
+ 
+}
+.cb03 {
+ background: #B1B1B1;
+}
+/*//////////////////
+///HIDDEN CONTENT///
+//////////////////*/
+.contentBlock, .scr-container {
+ display: none;
+}
+
 /*///////////////
 ///BACKGROUND///
 //////////////*/
@@ -66,7 +80,7 @@ body {
     font-family: 'Spartan', sans-serif;
 }
 /*///////////////////
-//FRONT PAGE BUTTON///
+//WEBSITE BUTTONS///
 //////////////////*/
 .menuBtn {
     text-align: center;
@@ -107,6 +121,29 @@ body {
     right: -500%;
     z-index: 5;
 }
+
+/*
+.closepage {
+  position: absolute;
+  top: 50px;
+  width: 50px;
+  height: 50px;
+}
+.closepage::before, .closepage::after {
+  position: absolute;
+  left: 15px;
+  content: ' ';
+  height: 33px;
+  width: 2px;
+  background-color: #333;
+}
+.closepage::before {
+  transform: rotate(45deg);
+}
+.closepage::after {
+  transform: rotate(-45deg);
+}*/
+
 /*//////////////////
 //MAIN MENU LIST///
 /////////////////*/
@@ -122,7 +159,7 @@ body {
 ///ABOUT ME///
 ////////////*/
 .subtxt {
- font-size: 15px;
+ font-size: 20px;
 }
 .bigtxt {
  font-size: 10em;
