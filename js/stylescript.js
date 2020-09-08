@@ -20,6 +20,7 @@ $(document).ready(function() {
     /////MENU TOGGLE ANIMATION////
     /////////////////////////////
     var b1 = $("#toggleOff");
+    var b2 = $(".scr-body");
     waterFloat(b1,900,0,8);
 
     $(".cb02, .cb03").hide();
@@ -41,6 +42,11 @@ $(document).ready(function() {
         });
         $(".cb02, .contentBlock, .scr-container").delay(1000).fadeIn(2000);
         $(".cb01, #bg, .toggleOff").delay(200).fadeOut();
+        waterFloat(b2,900,0,8);
     });
 
+
+////////////////////
+///END OF SCRIPT///
+//////////////////
 });
