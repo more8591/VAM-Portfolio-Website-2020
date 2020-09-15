@@ -1,6 +1,10 @@
 /*
 Developed by Victor Moreno
 */
+
+/*///////////////
+///GLOBAL CSS///
+//////////////*/
 body {
     margin: 0px;
     padding: 0px;
@@ -27,6 +31,11 @@ body {
 }
 .cb03 {
  background: #B1B1B1;
+}
+.gimg {
+ z-index: 5;
+ position: relative;
+ width: 100%;
 }
 /*//////////////////
 ///HIDDEN CONTENT///
