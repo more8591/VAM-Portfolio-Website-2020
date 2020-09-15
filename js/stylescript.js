@@ -16,6 +16,17 @@ $(document).ready(function() {
         loop: 1
     });
 
+    //////////////////////////////////////////
+    /////SHOW ON SCROLL POINT ANIMATION//////
+    ////////////////////////////////////////
+    $(window).scroll(function() {
+     if ($(this).scrollTop() >=300) {
+      $(".scr-body").fadeOut();
+     } else {
+      $(".scr-body").fadeIn();
+     }
+    })
+
     ///////////////////////////////
     /////MENU TOGGLE ANIMATION////
     /////////////////////////////
@@ -37,12 +48,16 @@ $(document).ready(function() {
 
     ///FADES OUT KNOW MORE BUTTON TO SHOW MENU///
     $("#toggleOff").on("click", function(){
+     //SLIDE ANIMATION//
         $(".circleTrans").delay(200).animate({
             left: '-100%',
         });
+        //FADE IN CONTENT BLOCKS 1 - 3//
         $(".cb02, .contentBlock, .scr-container").delay(1000).fadeIn(2000);
         $(".cb01, #bg, .toggleOff").delay(200).fadeOut();
         waterFloat(b2,900,0,8);
+        //AUTO START AT TOP//
+        $(window).scrollTop(0);
     });
 
 
