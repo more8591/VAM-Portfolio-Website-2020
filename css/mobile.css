@@ -13,6 +13,15 @@ and (max-device-width : 480px) {
  #bg {
   width: 350vw;
  }
+ #toggleOff {
+  top: 150vw;
+ }
+ .quoteContainer {
+  top: 70vw;
+ }
+ .smContainer {
+  top: 75vw;
+ }
  #webLogo, #subLogo {
   display: inline-block;
  }
