@@ -13,6 +13,14 @@ and (max-device-width : 480px) {
  #bg {
   width: 350vw;
  }
+ .logoContainer {
+  width: 100%;
+  text-align: center;
+ }
+ #webLogo, #subLogo {
+  display: inline-block;
+ }
+
 }
 
 /* Smartphones (landscape) ----------- */
