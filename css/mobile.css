@@ -14,7 +14,7 @@ and (max-device-width : 480px) {
   width: 350vw;
  }
  #toggleOff {
-  top: 150vw;
+  top: 45em;
  }
  .quoteContainer {
   top: 70vw;
