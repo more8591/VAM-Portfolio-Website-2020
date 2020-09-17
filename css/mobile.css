@@ -6,26 +6,32 @@ Developed by Victor Moreno
 ///GLOBAL MOBILE CSS///
 ////////////////////*/
 
-/* Smartphones (portrait and landscape) ----------- */
+/* Smartphones (portrait and landscape)*/
 @media only screen
 and (min-device-width : 320px)
 and (max-device-width : 480px) {
+ /*///////////////
+ ////MAIN PAGE///
+ //////////////*/
  #bg {
   width: 350vw;
- }
- #toggleOff {
-  top: 45em;
- }
- .quoteContainer {
-  top: 70vw;
- }
- .smContainer {
-  top: 75vw;
  }
  #webLogo, #subLogo {
   display: inline-block;
  }
+ .quotemstr {
+  top: 30%!important;
+  position: absolute;
+ }
+ #toggleOff {
+  top: 100%;
+  position: relative;
+ }
+ .quoteContainer, .smContainer {
+  top: unset!important;
+ }
 
+/*/////END/////*/
 }
 
 /* Smartphones (landscape) ----------- */
