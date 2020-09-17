@@ -179,6 +179,10 @@ body {
 .cb03 {
  width: 800px 100%;
 }
+.imgContainer {
+ overflow: hidden;
+}
 #pfpic {
- 
+ object-position: center;
+ object-fit: cover;
 }
