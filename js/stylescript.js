@@ -19,13 +19,20 @@ $(document).ready(function() {
     //////////////////////////////////////////
     /////SHOW ON SCROLL POINT ANIMATION//////
     ////////////////////////////////////////
+
     $(window).scroll(function() {
-     if ($(this).scrollTop() >=300) {
+     var scrlnum = $(this).scrollTop();
+     //////SCROLL DOWN MORE FLOAT/////
+     if (scrlnum >=300) {
       $(".scr-body").fadeOut();
      } else {
       $(".scr-body").fadeIn();
      }
     })
+    ////////////////////////////////////
+    /////ANIMATION SCROLL TRIGGER//////
+    //////////////////////////////////
+
 
     ///////////////////////////////
     /////MENU TOGGLE ANIMATION////
