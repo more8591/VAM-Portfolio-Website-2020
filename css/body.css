@@ -93,6 +93,7 @@ body {
 //////////////////*/
 .menuBtn {
     text-align: center;
+    margin: 50px;
 }
 #toggleOff {
     width: 0;
@@ -100,11 +101,9 @@ body {
     border-left: 60px solid transparent;
     border-right: 60px solid transparent;
     border-top: 85px solid #2c2626;
-    top: 45em;
-    position: absolute;
-    z-index: 5;
+    position: relative;
+    z-index: 3;
     display: inline-block;
-    margin: -60px;
 }
 .btnTXT {
     position: absolute;
@@ -130,28 +129,6 @@ body {
     right: -500%;
     z-index: 5;
 }
-
-/*
-.closepage {
-  position: absolute;
-  top: 50px;
-  width: 50px;
-  height: 50px;
-}
-.closepage::before, .closepage::after {
-  position: absolute;
-  left: 15px;
-  content: ' ';
-  height: 33px;
-  width: 2px;
-  background-color: #333;
-}
-.closepage::before {
-  transform: rotate(45deg);
-}
-.closepage::after {
-  transform: rotate(-45deg);
-}*/
 
 /*//////////////////
 //MAIN MENU LIST///
@@ -180,8 +157,4 @@ body {
 }
 .imgContainer {
  overflow: hidden;
-}
-#pfpic {
- object-position: center;
- object-fit: cover;
 }
