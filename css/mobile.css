@@ -16,17 +16,23 @@ and (max-device-width : 480px) {
  #bg {
   width: 350vw;
  }
+ .pfp {
+     margin: -25px;
+ }
  #webLogo, #subLogo {
   display: inline-block;
  }
- .quotemstr {
+ .quoteContainer {
   position: fixed;
     top: 50vw;
     left: 50vw;
-    margin-top: -100px;
+    margin-top: -200px;
     margin-left: -200px;
  }
- 
+ .logoContainer {
+     margin: -25px 50px;
+ }
+
 /*/////END/////*/
 }
 

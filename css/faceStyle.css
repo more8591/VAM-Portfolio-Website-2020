@@ -9,14 +9,19 @@ This css document effects the following blocks:
 //CONTENT BLOCK 01/HOME PAGE///
 ///////////////////////////*/
 .quoteContainer {
-    width: 100%;
-    position: relative;
     text-align: center;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -250px;
+    margin-left: -200px;
+
 }
 #pfp {
  border-radius: 100%;
  width: 10em;
  margin: 50px;
+ border: solid 10px #2c2626;
 }
 .mainTXT {
     display: inline-block;
