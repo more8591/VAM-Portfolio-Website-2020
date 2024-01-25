@@ -23,7 +23,6 @@ body {
 .cb02, .cb03 {
     z-index: 6;
     position: relative;
-    height: 40vw;
 }
 .cb02 {
 
@@ -36,6 +35,13 @@ body {
  position: relative;
  width: 100%;
 }
+
+.minimal-txt {
+    font-family: 'Spartan', sans-serif;
+    font-size: 15px;
+    letter-spacing: 2px;
+}
+
 /*//////////////////
 ///HIDDEN CONTENT///
 //////////////////*/
@@ -47,7 +53,7 @@ body {
 ///BACKGROUND///
 //////////////*/
 #bg {
-    width: 100%;
+    width: 125%;
     position: fixed;
     top: -5%;
     left: 0;
@@ -140,6 +146,7 @@ body {
     display: inline-block;
     text-align: center;
     width: 50%;
+    margin-bottom: -20vw;
 }
 /*/////////////
 ///ABOUT ME///
@@ -148,9 +155,11 @@ body {
  font-size: 20px;
 }
 .bigtxt {
- font-size: 10em;
- font-weight: bold;
- margin-top: -30px;
+    font-size: 10em;
+    font-weight: bold;
+    margin: 0px;
+    max-width: 30vw;
+    display: inline-block;
 }
 .cb03 {
  width: 800px 100%;

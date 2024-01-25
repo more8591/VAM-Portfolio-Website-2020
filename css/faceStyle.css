@@ -65,17 +65,18 @@ This css document effects the following blocks:
 ////SCROLLING PROMPT///
 //////////////////////*/
 .scr-container {
- width: 100%;
- position: fixed;
- bottom: 3em;
- text-align: center;
- z-index: 10;
+    width: 100%;
+    position: fixed;
+    bottom: 3em;
+    text-align: center;
+    z-index: 10;
 }
 .scr-body {
- display: inline-block;
- border: black solid 1px;
- padding: 10px 25px;
- font-size: 15px;
- letter-spacing: 2px;
- font-family: 'Spartan', sans-serif;
+    display: inline-block;
+    padding: 10px 25px;
+    font-size: 15px;
+    letter-spacing: 2px;
+    font-family: 'Spartan', sans-serif;
+    background: #2c2626;
+    color: white;
 }
