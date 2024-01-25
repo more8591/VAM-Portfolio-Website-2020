@@ -5,8 +5,19 @@ This js doc effects the following:
 -
 */
 
-$(document).ready(function() {
+function slideShow() {
+    var count = 0;
+    const IMG_PATH = 'img/mypics/';
+    setInterval(function() {
+        jQuery('.img-slider').attr('src', IMG_PATH + count + '.JPG');
+        count++;
+        if (count > 2) {
+            count = 0;
+        }
+    }, 2500);
+}
 
+$(document).ready(function() {
     /////////////////////////////
     /////BIG TEXT ANIMATION//////
     /////////////////////////////
@@ -60,6 +71,8 @@ $(document).ready(function() {
         $(".cb01, #bg, #toggleOff").delay(200).fadeOut();
         //AUTO START AT TOP//
         $(window).scrollTop(0);
+        //START IMAGE SLIDE SHOW
+        slideShow();
     });
 
 

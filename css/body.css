@@ -42,6 +42,14 @@ body {
     letter-spacing: 2px;
 }
 
+.crop-img {
+    width: 50%;
+    height: 20vw;
+    object-fit: cover;
+    object-position: 0px -7vw;
+    margin: 3vw;
+}
+
 /*//////////////////
 ///HIDDEN CONTENT///
 //////////////////*/
@@ -146,7 +154,6 @@ body {
     display: inline-block;
     text-align: center;
     width: 50%;
-    margin-bottom: -20vw;
 }
 /*/////////////
 ///ABOUT ME///
@@ -155,7 +162,7 @@ body {
  font-size: 20px;
 }
 .bigtxt {
-    font-size: 10em;
+    font-size: 10vw;
     font-weight: bold;
     margin: 0px;
     max-width: 30vw;

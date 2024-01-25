@@ -25,3 +25,10 @@ var runIt = function (elm,t,d,v) {
 }
 runIt(i,t,d,v);
 }
+
+
+var elem = $('#toggleOff'); // jquery selector to get a specific element with ID
+var time = 900; //time in milli seconds
+var degrees = 0; //angle of degrees to float
+var vertical_displacement = 10; //value in pixels at which the div should take vertical displacements to float 
+var waterfloat = new waterFloat(elem,time,degrees,vertical_displacement);
