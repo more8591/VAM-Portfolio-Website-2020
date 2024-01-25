@@ -1,0 +1,25 @@
+.tiktok-vfx {
+    animation: animate 1.5s linear infinite;
+}
+
+@keyframes animate {
+    0%, 100% {
+      text-shadow: -2px -2px 0 #2943d1, 2px 2px 0 #f00;
+    }
+    
+    25% {
+      text-shadow: 2px 2px 0 #2943d1, -2px -2px 0 #f00;
+    }
+    
+    50% {
+      text-shadow: 2px -2px 0 #2943d1, -2px 2px 0 #f00;
+    }
+    
+    75% {
+      text-shadow: -2px 2px 0 #2943d1, 2px -2px 0 #f00;
+    }
+    
+    100% {
+      text-shadow: 2px 2px 0 #2943d1, -2px -2px 0 #f00;
+    }
+  }

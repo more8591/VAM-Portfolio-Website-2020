@@ -48,7 +48,7 @@ $(document).ready(function() {
     ///////////////////////////////
     /////MENU TOGGLE ANIMATION////
     /////////////////////////////
-    $(".cb02, .cb03").hide();
+    $(".cb02, .cb03, .hidethis").hide();
 
     $("#toggleOff").mouseenter(function(){
         $(this).animate({
@@ -67,7 +67,7 @@ $(document).ready(function() {
             left: '-100%',
         });
         //FADE IN CONTENT BLOCKS 1 - 3//
-        $(".cb02, .contentBlock, .scr-container").delay(1000).fadeIn(2000);
+        $(".cb02, .contentBlock, .scr-container, .hidethis").delay(1000).fadeIn(2000);
         $(".cb01, #bg, #toggleOff").delay(200).fadeOut();
         //AUTO START AT TOP//
         $(window).scrollTop(0);
