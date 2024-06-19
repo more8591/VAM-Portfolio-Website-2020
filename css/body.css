@@ -20,13 +20,11 @@ body {
     padding: 5vw 0vw 5vw 0vw;
     width: 100%;
 }
-.cb02, .cb03 {
+.cb02, .cb03, .cb04 {
     z-index: 6;
     position: relative;
 }
-.cb02 {
 
-}
 .cb03, .cb05, .cb06 {
  background: #B1B1B1;
 }
