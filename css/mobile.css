@@ -14,7 +14,7 @@ and (max-device-width : 480px) {
  ////MAIN PAGE///
  //////////////*/
  #bg {
-  width: 350vw;
+  width: 100vw;
  }
  .pfp {
      margin: -25px;
