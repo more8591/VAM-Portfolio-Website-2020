@@ -22,4 +22,27 @@
     100% {
       text-shadow: 2px 2px 0 #2943d1, -2px -2px 0 #f00;
     }
-  }
+}
+
+/* Overlay gallery styles */
+.image-overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.image-overlay.active {
+    display: flex;
+}
+
+.image-overlay-content img {
+    max-width: 90%;
+    max-height: 90%;
+}
